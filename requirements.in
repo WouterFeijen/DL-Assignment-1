@@ -1,0 +1,9 @@
+torch
+torchvision
+Pillow
+kagglehub
+ipywidgets
+ipython
+matplotlib
+numpy
+jupyter
