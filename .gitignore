@@ -1,1 +1,27 @@
-node_modules/ 
+node_modules/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data and Models (Just in case you move things locally later)
+data/
+datasets/
+*.pt
+*.pth
+*.h5
+
+# OS specific
+.DS_Store
+Thumbs.db
