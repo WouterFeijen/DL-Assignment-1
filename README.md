@@ -33,6 +33,9 @@ Navigate to this project's root directory in your terminal (where the `requireme
 
 *(Note: If your terminal says `uv` is not recognized, add `py -m` in front of the command on Windows, or `python -m` on Mac/Linux).*
 
+**⚠️ Hardware Note (Important):** This environment is explicitly configured to use PyTorch **Nightly** builds with **CUDA 13.2**. 
+Because half our team is using RTX 50-series (Blackwell) laptops, the stable PyTorch releases do not yet support our hardware. The `requirements.txt` will automatically pull these specialized nightly versions, which are fully backward-compatible with older cards (like the RTX 3090 or Ada generation GPUs).
+
 ### 5. Link to Jupyter
 To make this environment available inside Jupyter Notebook/Lab, register it as a kernel by running the following command while the environment is still active:
 
