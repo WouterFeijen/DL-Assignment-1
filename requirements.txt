@@ -260,7 +260,7 @@ python-dateutil==2.9.0.post0
     #   matplotlib
 python-json-logger==4.1.0
     # via jupyter-events
-pywinpty==3.0.3
+# pywinpty==3.0.3
     # via
     #   jupyter-server
     #   jupyter-server-terminals
