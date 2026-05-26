@@ -5,6 +5,8 @@ Pillow
 kagglehub
 ipywidgets
 ipython
-matplotlib
+matplotlib>=3.10.0
 numpy
 jupyter
+seaborn
+scikit-learn
