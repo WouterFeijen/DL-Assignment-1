@@ -19,9 +19,15 @@ __pycache__/
 data/
 datasets/
 *.pt
-*.pth
+# *.pth
 *.h5
 
 # OS specific
 .DS_Store
 Thumbs.db
+
+
+# TEMPORARY
+ass1_skeleton-MitkoVersion.ipynb
+ass1_skeleton-MitkoVersion2.ipynb
+ass1_skeleton-WouterVersion.ipynb
