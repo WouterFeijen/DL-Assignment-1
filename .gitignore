@@ -32,3 +32,7 @@ ass1_skeleton-MitkoVersion.ipynb
 ass1_skeleton-MitkoVersion2.ipynb
 ass1_skeleton-WouterVersion.ipynb
 ass1_skeleton-BellaVersion.ipynb
+
+# ignore old .pth files
+simpleautoencoder_weights-OLD.pth
+autoencoder_weights-OLD.pth
