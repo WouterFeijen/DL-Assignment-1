@@ -58,3 +58,10 @@ Run the sync command from Step 4 again to install your new packages and align yo
 ## Troubleshooting
 **PyTorch using CPU instead of GPU?**
 If your environment is set up correctly but your system silently defaults to the CPU, you likely need to update your desktop or laptop NVIDIA Display Drivers. While older GPUs (like the 30-series) are perfectly compatible with this setup, CUDA 13.2 requires the absolute latest Game Ready or Studio Drivers via the NVIDIA App / GeForce Experience to communicate with the hardware.
+
+## Reproducibility and Training
+The notebook can be run in two modes using the `SKIP_TRAINING` variable.
+
+Set `SKIP_TRAINING = True` to load the model weights saved in this repository. These weights were trained, saved, and used for the report, so this mode should reproduce the reported results.
+
+Set `SKIP_TRAINING = False` to train the models from scratch. This is useful for checking that the training code works properly, but the results may differ from the reported ones because training includes random initialization and stochastic sampling.
